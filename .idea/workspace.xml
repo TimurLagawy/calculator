@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55cbe7d7-58c8-4d08-b1f6-fe20f770a026" name="Changes" comment="calculator_day_1" />
+    <list default="true" id="55cbe7d7-58c8-4d08-b1f6-fe20f770a026" name="Changes" comment="calculator_day_2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Calculator_3"
   }
 }]]></component>
   <component name="RunManager">
@@ -72,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676149900119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="calculator_day_2">
+      <created>1677235175493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677235175493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="calculator_day_2">
+      <created>1677235194871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677235194871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calculator_day_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator_day_1" />
+    <MESSAGE value="calculator_day_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator_day_2" />
   </component>
 </project>
