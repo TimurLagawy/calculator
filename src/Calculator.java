@@ -5,9 +5,7 @@ import java.awt.event.ActionListener;
 
      public class Calculator extends JFrame {
         JTextField num_field;
-        JTextField email_field;
-        JRadioButton male, female;
-        JCheckBox check;
+
         public Calculator(){
             super("Calculator");
             super.setBounds(200, 100, 400, 400);
@@ -39,6 +37,8 @@ import java.awt.event.ActionListener;
             container.add(nine_button);
             JButton zero_button = new JButton("0");
             container.add(zero_button);
+            JButton equals_button = new JButton("=");
+            container.add(equals_button);
 
             ButtonGroup group = new ButtonGroup();
             group.add(one_button);
@@ -47,9 +47,53 @@ import java.awt.event.ActionListener;
            group.add(four_button);
            group.add(five_button);
 
+            equals_button.addActionListener(new ButtonEventManager());
+            }
+     class ButtonEventManager implements ActionListener{
 
-
-            }}
+         @Override
+         public void actionPerformed(ActionEvent e) {
+             String command = e.getActionCommand();
+             Label inputField = new Label();
+             String input = inputField.getText();
+             Label outputLabel = new Label();
+             double result = Double.parseDouble(outputLabel.getText());
+             switch (command) {
+                 case "0":
+                 case "1":
+                 case "2":
+                 case "3":
+                 case "4":
+                 case "5":
+                 case "6":
+                 case "7":
+                 case "8":
+                 case "9":
+                 case ".":
+                     inputField.setText(input + command);
+                     break;
+                 case "+":
+                     inputField.setText("");
+                     outputLabel.setText("" + (result + Double.parseDouble(input)));
+                     break;
+                 case "-":
+                     inputField.setText("");
+                     outputLabel.setText("" + (result - Double.parseDouble(input)));
+                     break;
+                 case "*":
+                     inputField.setText("");
+                     outputLabel.setText("" + (result * Double.parseDouble(input)));
+                     break;
+                 case "/":
+                     inputField.setText("");
+                     outputLabel.setText("" + (result / Double.parseDouble(input)));
+                     break;
+                 case "=":
+                     inputField.setText("");
+                     break;
+             }
+         }}
+     }
 
 
 
