@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55cbe7d7-58c8-4d08-b1f6-fe20f770a026" name="Changes" comment="calculator_day_2_addButtons">
+    <list default="true" id="55cbe7d7-58c8-4d08-b1f6-fe20f770a026" name="Changes" comment="calculator_day_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677251735407</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="calculator_day_3">
+      <created>1677343651023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677343651023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +123,7 @@
     <MESSAGE value="calculator_day_1" />
     <MESSAGE value="calculator_day_2" />
     <MESSAGE value="calculator_day_2_addButtons" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator_day_2_addButtons" />
+    <MESSAGE value="calculator_day_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator_day_3" />
   </component>
 </project>
